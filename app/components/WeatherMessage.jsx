@@ -15,7 +15,7 @@ const WeatherMessage = ({temp, location}) => {
     // const {temp, location} = props;
     return(
         <div>
-            <h4>It's {temp} deg in {location}!</h4>
+            <h3 className="text-center">It's {temp} deg in {location}!</h3>
         </div>
     );
 }
